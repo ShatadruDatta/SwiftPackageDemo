@@ -6,6 +6,7 @@ public struct BarChartView: View {
 
     public init() { }
     
+    @available(iOS 13.0.0, *)
     public var body: some View {
         VStack(alignment: .leading) {
             HStack(alignment: .top) {
